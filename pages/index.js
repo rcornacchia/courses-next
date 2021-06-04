@@ -4,7 +4,7 @@ import { getCourses } from "../utils/db";
 const Homepage = ({ courses }) => {
   return (
     <div>
-      <h1>Courses</h1>
+      <h1>My Courses</h1>
       <pre>{JSON.stringify(courses, null, 2)}</pre>
     </div>
   );
